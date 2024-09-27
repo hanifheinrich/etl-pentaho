@@ -9,6 +9,7 @@ Pentaho adalah alat ETL populer yang menawarkan antarmuka yang mudah digunakan u
 - Slow Changing Dimension
   
 ## ETL
+![image](https://github.com/user-attachments/assets/82dae376-df53-4237-b7da-f12be92ec0cb)
 Pentaho Data Integration, sering disebut sebagai Kettle, adalah alat yang sangat populer untuk proses ETL. PDI menyediakan antarmuka grafis yang memudahkan pengguna untuk membuat alur ETL tanpa perlu banyak menulis kode. Pengguna dapat merancang proses ETL dengan cara menghubungkan berbagai komponen, seperti input, transformasi, dan output, menggunakan metode drag-and-drop.
 Proses ETL dalam Pentaho
 1.	Extract (Ekstraksi)
@@ -22,6 +23,8 @@ Proses ETL dalam Pentaho
 -	Komponen seperti "Table Output", "Excel Output", atau "Insert/Update" digunakan untuk memuat data ke sistem tujuan.
 
 ## ETL Automation
+![image](https://github.com/user-attachments/assets/6909938b-1877-4a77-92cf-5f0d0e212cda)
+
 Dalam dunia Business Intelligence, sering kali dilupakan bahwa dasbor bukanlah proyek manual yang diperbarui sesekali, melainkan produk real-time. Fungsinya tidak hanya untuk menampilkan data, tapi juga harus responsif terhadap perubahan data untuk memberikan wawasan yang akurat dan terkini.
 
 Salah satu cara untuk membuat dasbor real-time adalah dengan menggunakan penjadwal ETL (Extract, Transform, Load). Penjadwal ETL memungkinkan gudang data diperbarui secara otomatis pada interval yang ditentukan, sehingga dasbor selalu menampilkan data terbaru tanpa perlu intervensi manual. Hal ini memastikan keputusan berbasis data dapat dibuat dengan cepat dan tepat.
@@ -35,6 +38,8 @@ Dengan cara ini, pekerjaan ETL akan berjalan secara otomatis sesuai jadwal, mema
 
 
 ## Slow Changing Dimension
+![image](https://github.com/user-attachments/assets/bc0d38f8-9780-4fd5-aa05-fe3fe7f9081a)
+
 Perubahan pada master table database akan berdampak pada tabel dimensi di data warehouse. Contohnya, saat manajer John pindah dari cabang A ke cabang B, atau ketika nama karyawan direvisi dari "Jhon Doe" menjadi "John Doe." Jika kita masih menggunakan pipeline data yang lama, beberapa masalah mungkin muncul, seperti:
 
 -	Sistem hanya mencatat John di cabang A tanpa merekam bahwa ia pernah berpindah ke cabang B.
